@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>IGestionServicio</title>
+    <title></title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,14 +19,14 @@
 
       <!-- Name Title -->
 
-      <h1>IGestionServicio</h1>
+      <h1>(unnamed)</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLInterface"></span>
-          UMLInterface
+          <span class="node-icon staruml-icon icon-UMLParameter"></span>
+          UMLParameter
         </span>
         
       </section>
@@ -47,7 +47,13 @@
           <span class="label label-info"><a href='0f0e8b92c5f414f6e888cd5c2877e545.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Componentes</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='7ab93d2c950fcdaef04da978369c6da7.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>IGestionServicio</a></span>
+          <span class="label label-info"><a href='72c8c1b9721579ee1d9867166ec2234e.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>DAOsubasta</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='de7b3e31ea48621b05279cbe6d80ef1d.html'><span class='node-icon staruml-icon icon-UMLOperation'></span>crearSubasta</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='258e3f5fe6bbe5084d87715c1ba931de.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>(Parameter)</a></span>
         
       </section>
 
@@ -83,41 +89,8 @@
       <!-- Classifier -->
 
       
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-      
 
       <!-- Interface -->
-
-      
-        
-        
-<section class="element-list">
-    <h3>Implementing Classifiers</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='a85fb6ba07aaa195d08b662c924ccae4.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Gestion de Servicios</a></li>
-        
-    </ul>
-</section>
-
 
       
 
@@ -151,60 +124,6 @@
 
       <!-- Operations -->
 
-      
-      <section>
-        <h3>Operations</h3>
-        <table class="table table-striped table-bordered">
-          <tr>
-            <th>Visibility</th>
-            <th>Name</th>
-            <th>Description</th>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="68b9a1703860d96d3730e2041beaf999.html">crearServicio(idTrabajador: String, servicio: Servicio): Servicio</a></td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="ff887cf6a34b74d8065227517090db81.html">editarServicio(idTrabajador: String, servicio: Servicio): boolean</a></td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="baf19bc99ee0705b534b9dbc59bd861b.html">verMiCatalogoDeServicios(idTrabajador: String): Servicio[*]</a></td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="43abcce0a3b2fa86e3aced0a6cfc1f87.html">borrarServicio(idTrabajador: String, idServicio: String): Servicio</a></td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="6715c5cd36f9e8d78857bced03986412.html">borrarTodosMisServicios(idTrabajador: String): Servicio[*]</a></td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="56179fa79b1d89fd5f296ce912657aaa.html">verHistorialDeServiciosDados(idTrabajador: String): Servicio[*]</a></td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="1f52c568d2988ee5393752e986c5951e.html">valorarCliente(idTrabajador: String, idCliente: String, valoracion: Valoracion): Valoracion</a></td>
-            <td></td>
-          </tr>
-          
-        </table>
-      </section>
       
 
       <!-- Receptions -->
@@ -303,7 +222,7 @@
     
     <tr>
         <td>name</td>
-        <td>IGestionServicio</td>
+        <td></td>
     </tr>
     
     
@@ -336,25 +255,8 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
     <tr>
-        <td>isAbstract</td>
-        <td><span class='label label-info'>false</span></td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
-        <td>isFinalSpecialization</td>
+        <td>isStatic</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -365,6 +267,78 @@
     <tr>
         <td>isLeaf</td>
         <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>featureDirection</td>
+        <td>provided</td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>type</td>
+        <td><a href='b14cac2360e6bef13c12d8312497feb7.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Subasta</a></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>multiplicity</td>
+        <td></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isReadOnly</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isOrdered</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isUnique</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>defaultValue</td>
+        <td></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>direction</td>
+        <td>return</td>
     </tr>
     
     
@@ -390,19 +364,6 @@
 
         
         
-<section class="element-list">
-    <h3>Dependants</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='36d2881833f83d6b3a258434a7af184f.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Vista Usuario</a></li>
-        
-        <li><a href='4b79668358dc5e4aa27177ac321b6598.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Vista Administrador</a></li>
-        
-        <li><a href='a85fb6ba07aaa195d08b662c924ccae4.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Gestion de Servicios</a></li>
-        
-    </ul>
-</section>
-
 
       
 
@@ -410,19 +371,6 @@
 
       
       
-<section class="element-list">
-    <h3>Relationships</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='597b90336c31228a7625e6abed935427.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Vista Usuario→IGestionServicio)</a></li>
-        
-        <li><a href='b8fdf76477755da4eacf8edfc3eacb75.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Vista Administrador→IGestionServicio)</a></li>
-        
-        <li><a href='7e733b257917b66d60f0635623e6f16f.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Gestion de Servicios→IGestionServicio)</a></li>
-        
-    </ul>
-</section>
-
 
 
       <!-- Owned Elements -->

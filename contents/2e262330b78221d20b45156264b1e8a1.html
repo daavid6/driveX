@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>IGestionServicio</title>
+    <title>DAOservicio</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,7 +19,7 @@
 
       <!-- Name Title -->
 
-      <h1>IGestionServicio</h1>
+      <h1>DAOservicio</h1>
 
       <!-- Type and Stereotype -->
 
@@ -47,7 +47,7 @@
           <span class="label label-info"><a href='0f0e8b92c5f414f6e888cd5c2877e545.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Componentes</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='7ab93d2c950fcdaef04da978369c6da7.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>IGestionServicio</a></span>
+          <span class="label label-info"><a href='2e262330b78221d20b45156264b1e8a1.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>DAOservicio</a></span>
         
       </section>
 
@@ -113,7 +113,7 @@
     <h3>Implementing Classifiers</h3>
     <ul class="nav nav-list">
         
-        <li><a href='a85fb6ba07aaa195d08b662c924ccae4.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Gestion de Servicios</a></li>
+        <li><a href='5c0b3eafbc6a0ec1a21df7e5fcf23bd8.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Datos Servicio</a></li>
         
     </ul>
 </section>
@@ -163,43 +163,31 @@
           
           <tr>
             <td>public</td>
-            <td><a href="68b9a1703860d96d3730e2041beaf999.html">crearServicio(idTrabajador: String, servicio: Servicio): Servicio</a></td>
+            <td><a href="9b06a951341475c4380b1ec73ec95ae9.html">crearServicio(servicio: Servicio): Servicio</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="ff887cf6a34b74d8065227517090db81.html">editarServicio(idTrabajador: String, servicio: Servicio): boolean</a></td>
+            <td><a href="8f100249004ad5a539eab151c79a2f44.html">modificarServicio(servicio: Servicio): boolean</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="baf19bc99ee0705b534b9dbc59bd861b.html">verMiCatalogoDeServicios(idTrabajador: String): Servicio[*]</a></td>
+            <td><a href="31bf805864cc7860d5b319df3ac75f70.html">eliminarServicio(idServicio: String): Servicio</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="43abcce0a3b2fa86e3aced0a6cfc1f87.html">borrarServicio(idTrabajador: String, idServicio: String): Servicio</a></td>
+            <td><a href="7f06dd72f50e5b6e6aa41e43edc1586d.html">obtenerServicio(idServicio: String): Servicio</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="6715c5cd36f9e8d78857bced03986412.html">borrarTodosMisServicios(idTrabajador: String): Servicio[*]</a></td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="56179fa79b1d89fd5f296ce912657aaa.html">verHistorialDeServiciosDados(idTrabajador: String): Servicio[*]</a></td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="1f52c568d2988ee5393752e986c5951e.html">valorarCliente(idTrabajador: String, idCliente: String, valoracion: Valoracion): Valoracion</a></td>
+            <td><a href="3b42ec9cf4e3dcc5bcaea72bc9ea6499.html">obtenerServicios(): Servicio[*]</a></td>
             <td></td>
           </tr>
           
@@ -303,7 +291,7 @@
     
     <tr>
         <td>name</td>
-        <td>IGestionServicio</td>
+        <td>DAOservicio</td>
     </tr>
     
     
@@ -394,11 +382,9 @@
     <h3>Dependants</h3>
     <ul class="nav nav-list">
         
-        <li><a href='36d2881833f83d6b3a258434a7af184f.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Vista Usuario</a></li>
-        
-        <li><a href='4b79668358dc5e4aa27177ac321b6598.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Vista Administrador</a></li>
-        
         <li><a href='a85fb6ba07aaa195d08b662c924ccae4.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Gestion de Servicios</a></li>
+        
+        <li><a href='5c0b3eafbc6a0ec1a21df7e5fcf23bd8.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Datos Servicio</a></li>
         
     </ul>
 </section>
@@ -414,11 +400,9 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='597b90336c31228a7625e6abed935427.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Vista Usuario→IGestionServicio)</a></li>
+        <li><a href='28ee22655d31f04504baa110360520ff.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Gestion de Servicios→DAOservicio)</a></li>
         
-        <li><a href='b8fdf76477755da4eacf8edfc3eacb75.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Vista Administrador→IGestionServicio)</a></li>
-        
-        <li><a href='7e733b257917b66d60f0635623e6f16f.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Gestion de Servicios→IGestionServicio)</a></li>
+        <li><a href='c27437d6e5b82ca0bf9963d61a06633b.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Datos Servicio→DAOservicio)</a></li>
         
     </ul>
 </section>
