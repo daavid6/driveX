@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>IChats</title>
+    <title>IGestionChat</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,7 +19,7 @@
 
       <!-- Name Title -->
 
-      <h1>IChats</h1>
+      <h1>IGestionChat</h1>
 
       <!-- Type and Stereotype -->
 
@@ -47,7 +47,7 @@
           <span class="label label-info"><a href='0f0e8b92c5f414f6e888cd5c2877e545.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Componentes</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='f8281e75c1261d3d95df2a391ed2f0b1.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>IChats</a></span>
+          <span class="label label-info"><a href='f8281e75c1261d3d95df2a391ed2f0b1.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>IGestionChat</a></span>
         
       </section>
 
@@ -152,6 +152,60 @@
       <!-- Operations -->
 
       
+      <section>
+        <h3>Operations</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="46ce64c7a2240bc47e3217174b012335.html">crearChat(c: Chat, idUsuario: String): Chat</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="71fb3d0312b72ac92c22c248aef4a309.html">escribirMensaje(idUsuario: String, idChat: String, mensaje: Mensaje): boolean</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="44ef6b70dd25ce9ce07fcf5c480b2d2d.html">verChats(idUsuario: String): Chat[*]</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="9d880292fd247bf9e20de8e1309ebc03.html">verChatsPendientes(idUsuario: String): Chat[*]</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="86a08a2c2df28059bc317ed20d86fa06.html">entrarEnAChatActivo(idChat: String, idUsuario: String): boolean</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="ab3ce0aba62128db5ab037b3efa9ed8b.html">eliminarChat(idChat: String): Chat</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="2a76cb38c393ff77407f7087ab2b2009.html">eliminarTodosLosChats(idUsuario: String): Chat[*]</a></td>
+            <td></td>
+          </tr>
+          
+        </table>
+      </section>
+      
 
       <!-- Receptions -->
 
@@ -249,7 +303,7 @@
     
     <tr>
         <td>name</td>
-        <td>IChats</td>
+        <td>IGestionChat</td>
     </tr>
     
     
@@ -360,11 +414,11 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='824231835e49152dd569573d7aa6bdd8.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Vista Usuario→IChats)</a></li>
+        <li><a href='824231835e49152dd569573d7aa6bdd8.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Vista Usuario→IGestionChat)</a></li>
         
-        <li><a href='84ba62dd6f0fae42156c782fae51c8f2.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Vista Administrador→IChats)</a></li>
+        <li><a href='84ba62dd6f0fae42156c782fae51c8f2.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Vista Administrador→IGestionChat)</a></li>
         
-        <li><a href='a8606c605e05dbdfaf299d7df28074ee.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Gestion de Mensajeria→IChats)</a></li>
+        <li><a href='a8606c605e05dbdfaf299d7df28074ee.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Gestion de Mensajeria→IGestionChat)</a></li>
         
     </ul>
 </section>
